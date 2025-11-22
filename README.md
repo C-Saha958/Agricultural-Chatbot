@@ -71,7 +71,7 @@ python -m venv venv
 
 # Activate the virtual environment
 source venv/bin/activate  # Linux/macOS
-# OR
+ OR
 .\venv\Scripts\activate   # Windows
 3. Install Dependencies
 Install all required Python packages:
@@ -82,8 +82,9 @@ pip install fastapi uvicorn requests gradio python-multipart gtts speechrecognit
 4. Configure API Key (Security)
 To keep your Groq API Key secure, create a file named .env in the backend/ directory (the same location as this README.md) and add your key:
 
-# .env (DO NOT COMMIT THIS FILE TO GITHUB)
+ .env (DO NOT COMMIT THIS FILE TO GITHUB)
 GROQ_API_KEY="paste_your_key_here"
+
 ## Running the Application
 The application requires two separate processes to run simultaneously: the FastAPI Backend and the Gradio Frontend.
 
