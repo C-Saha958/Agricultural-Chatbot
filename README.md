@@ -101,10 +101,10 @@ In a new terminal window (with the virtual environment active and still in the b
 
 
 
-# python gradio_app.py
+## python gradio_app.py
 The application will launch in your browser, typically at http://127.0.0.1:7860 (or a similar address).
 
-# Security Note on API Keys
+## Security Note on API Keys
 The .gitignore file is configured to exclude the .env file from version control. NEVER remove .env from the .gitignore list or commit files containing sensitive keys. This is critical for maintaining the security of your GROQ_API_KEY.
 
 ##  Future Enhancements
